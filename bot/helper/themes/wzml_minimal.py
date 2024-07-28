@@ -2,14 +2,14 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Repo'
-    ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
-    ST_BN2_NAME = 'Updates'
-    ST_BN2_URL = 'https://t.me/WZML_X'
+    ST_BN1_NAME = 'OWNER'
+    ST_BN1_URL = 'https://t.me/Oogo_Nick'
+    ST_BN2_NAME = 'MOVIE GROUP'
+    ST_BN2_URL = 'https://t.me/movie_providing_group'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
-    ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own WZML-X Mirror-Leech bot</i>'''
+    ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own Mirror-Leech bot</i>'''
     OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
     LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
@@ -108,17 +108,17 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''⌬ <b><i>Restarted Successfully!</i></b>
+    RESTART_SUCCESS = '''⌬ <b><i>Restarted Successfully! By- @Oogo_Nick</i></b>
 ┠ <b>Date:</b> {date}
 ┠ <b>Time:</b> {time}
 ┠ <b>TimeZone:</b> {timz}
 ┖ <b>Version:</b> {version}'''
-    RESTARTED = '''⌬ <b><i>Bot Restarted!</i></b>'''
+    RESTARTED = '''⌬ <b><i>Bot Restarted! By- @Oogo_Nick</i></b>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
     PING = '<i>Starting Ping..</i>'
-    PING_VALUE = '<b>Pong</b>\n<code>{value} ms..</code>'
+    PING_VALUE = '<b>Pong</b>\n<code>{value} ms..</code>\n<b>Isse Jada Speed Hai Hamare Movie Group ka☠️ @movie_providing_group</b>'
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
